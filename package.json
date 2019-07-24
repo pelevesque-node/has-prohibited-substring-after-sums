@@ -1,0 +1,43 @@
+{
+  "name": "@pelevesque/has-prohibited-substring-after-sums",
+  "version": "0.0.1",
+  "description": "Checks if a string has a prohibited substring after given sums.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=7.5.0"
+  },
+  "scripts": {
+    "test": "standard && mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pelevesque/has-prohibited-substring-after-sums.git"
+  },
+  "keywords": [
+    "prohibited",
+    "str",
+    "string",
+    "substring",
+    "sum"
+  ],
+  "author": "Pierre-Emmanuel Lévesque <pierre.e.levesque@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pelevesque/has-prohibited-substring-after-sums/issues"
+  },
+  "homepage": "https://github.com/pelevesque/has-prohibited-substring-after-sums#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.0",
+    "standard": "^13.1.0"
+  },
+  "dependencies": {
+    "@pelevesque/sum-digits": "^0.0.9"
+  }
+}
