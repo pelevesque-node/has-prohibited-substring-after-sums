@@ -1,6 +1,6 @@
 {
   "name": "@pelevesque/has-prohibited-substring-after-sums",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Checks if a string has a prohibited substring after given sums.",
   "main": "index.js",
   "engines": {
