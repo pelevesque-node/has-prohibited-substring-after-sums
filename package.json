@@ -4,7 +4,7 @@
   "description": "Checks if a string has a prohibited substring after given sums.",
   "main": "index.js",
   "engines": {
-    "node": ">=7.5.0"
+    "node": ">=9.0.0"
   },
   "scripts": {
     "test": "standard && mocha --reporter spec",
