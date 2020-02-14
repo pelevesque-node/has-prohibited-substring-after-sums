@@ -24,13 +24,12 @@ https://www.npmjs.com/package/@pelevesque/has-prohibited-substring-after-sums
 
 ## Tests
 
-### Standard Style & Unit Tests
-
-`npm test`
-
-### Unit Tests & Coverage
-
-`npm run cover`
+Command                      | Description
+---------------------------- | ------------
+`npm test` or `npm run test` | All Tests Below
+`npm run cover`              | Standard Style
+`npm run standard`           | Coverage
+`npm run unit`               | Unit Tests
 
 ## Usage
 
